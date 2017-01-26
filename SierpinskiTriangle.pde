@@ -4,11 +4,12 @@ public void setup()
 }
 public void draw()
 {
+	background(255);
 	sierpinski(100,300,200);
 }
-public void mouseDragged()//optional
+public void mouseDragged()
 {
-
+	//sierpinski(100,300,mouseY);
 }
 public void sierpinski(int x, int y, int len) 
 {
